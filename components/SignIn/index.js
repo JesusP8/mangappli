@@ -21,7 +21,7 @@ export default class signin extends Component {
     if ((Email.length==0) || (Password.length==0)){
       alert("Required Field Is Missing!!!");
     }else{
-      var APIURL = "http://10.0.2.2:80/SignIn/login.php";
+      var APIURL = "";
 
       var headers = {
         'Accept' : 'application/json',
